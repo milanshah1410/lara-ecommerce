@@ -29,6 +29,9 @@
  1. U: admin@mstech.com 
     P: admin
 
+# stub 
+php artisan stub:publish
+
 # Admin Module Gerneration Example:post 
 php artisan make:filament-crud Post name:string body:text published:boolean
 # with sample 20 data
